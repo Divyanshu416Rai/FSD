@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timetable with Rowspan & Colspan</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    th {
+      background-color: #edc2c2;
+    }
+    .heading-row th {
+      background-color: #f5d078;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+
+    <tr class="heading-row">
+      <th colspan="10">📘 Timetable</th>
+    </tr>
+
+    
+    <tr class="heading-row">
+      <th colspan="2">General Info</th>
+      <th colspan="8">Periods</th>
+    </tr>
+
+    
+    <tr>
+      <th rowspan="2">Day</th> 
+      <th rowspan="2">Class</th>
+      <th>Period 1<br>09:00-09:45</th>
+      <th>Period 2<br>09:45-10:30</th>
+      <th>Period 3<br>10:30-11:15</th>
+      <th>Period 4<br>11:15-12:00</th>
+      <th>Period 5<br>12:00-12:45</th>
+      <th rowspan="2">Lunch<br>12:45-01:30</th> 
+      <th>Period 6<br>01:30-02:15</th>
+      <th>Period 7<br>02:15-03:00</th>
+    </tr>
+    <tr>
+      
+      <th colspan="6">Morning Session</th>
+      <th colspan="2">Afternoon Session</th>
+    </tr>
+
+    <!-- Timetable rows -->
+    <tr>
+      <td>Monday</td>
+      <td>IT D</td>
+      <td></td><td></td><td></td><td></td><td></td>
+      <td>Lunch</td>
+      <td></td><td></td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>IT D</td>
+      <td></td><td></td><td></td><td></td><td></td>
+      <td>Lunch</td>
+      <td></td><td></td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>IT D</td>
+      <td></td><td></td><td></td><td></td><td></td>
+      <td>Lunch</td>
+      <td></td><td></td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>IT D</td>
+      <td></td><td></td><td></td><td></td><td></td>
+      <td>Lunch</td>
+      <td></td><td></td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>IT D</td>
+      <td></td><td></td><td></td><td></td><td></td>
+      <td>Lunch</td>
+      <td></td><td></td>
+    </tr>
+  </table>
+</body>
+</html>
