@@ -8,4 +8,4 @@ let sum = 2-2 + "22";
 // console.log(sum);
 // console.log(typeof(sum));
 
-let strToNum
+
