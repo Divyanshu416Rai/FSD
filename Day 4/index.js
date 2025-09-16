@@ -8,4 +8,8 @@ let sum = 2-2 + "22";
 // console.log(sum);
 // console.log(typeof(sum));
 
+//***********Explict Type Conversion **************/
+let strToNum =Number("1234");
+console.log(strToNum+" "+typef(strToStr));    
+
 
