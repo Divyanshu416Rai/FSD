@@ -35,3 +35,4 @@ const generateAge = () => {
 
     document.getElementById("output").textContent = output;
 };
+
