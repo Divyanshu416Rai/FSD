@@ -1,0 +1,30 @@
+.container {
+  padding: 20px;
+  text-align: left;
+}
+
+.slider-img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease; 
+}
+
+.btn-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: lightblue;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: deepskyblue;
+  color: white;
+}
